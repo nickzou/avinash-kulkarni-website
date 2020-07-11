@@ -1,0 +1,19 @@
+.hero-container {
+    height: calc(100vh - 60px);
+    margin-top: 60px;
+    .row, .col {
+        height: 100%;
+    }
+    .image-wrapper {
+        height: 220px;
+        width: 220px;
+        border-radius: 110px;
+        overflow: hidden;
+        position: relative;
+        margin-bottom: 1rem;
+        img {
+            max-width: 100%;
+            object-fit: contain;
+        }
+    }
+}
